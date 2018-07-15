@@ -281,6 +281,7 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 		return false;
 	}
 public String getCurrentURL(){
+	
 	return driver.getCurrentUrl();
 }
 
