@@ -280,7 +280,9 @@ public class WebDriverServiceImpl extends WebDriverListener implements WebDriver
 		// TODO Auto-generated method stub
 		return false;
 	}
-
+public String getCurrentURL(){
+	return driver.getCurrentUrl();
+}
 
 }
 
